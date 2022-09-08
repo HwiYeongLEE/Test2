@@ -15,5 +15,5 @@ class Model(BaseModel):
 @app.post("/send")
 def send(data : Model):
     print(data)
-    return "전송완료"
+    return "전송실패"
 
